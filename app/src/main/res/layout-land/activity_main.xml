@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<!--        <TextView-->
+<!--        android:id="@+id/tv_userinfo"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="66dp"-->
+<!--        android:textSize="50dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_alignParentLeft="true"></TextView>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_profilepic"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="387dp"-->
+<!--        app:srcCompat="@drawable/ic_launcher_background" />-->
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/g_googlesignin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:gravity="center" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fb_facebooklogin"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+
+
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/adams_logo" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="172dp"
+        android:text="SignUp"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/tv_OR"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"
+        android:gravity="center"
+        android:text="Or"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+    />
+
+
+</RelativeLayout>

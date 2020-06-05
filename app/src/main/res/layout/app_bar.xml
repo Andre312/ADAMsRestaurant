@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    >
+
+<!--    <item-->
+<!--        android:id="@+id/ic_hamburger_menu"-->
+<!--        android:icon="@drawable/ic_hamburger_menu"-->
+<!--        />-->
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:text="Adam's Restaurant"
+        android:textSize="25dp"
+        android:textColor="#FFFF"
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"></TextView>
+
+</androidx.appcompat.widget.Toolbar>
